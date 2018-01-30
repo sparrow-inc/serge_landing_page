@@ -32,6 +32,7 @@ body{
 
 .center_container{
   margin:0px auto;
+  height: auto;
   background-color: inherit;
   display:flex;
   flex-direction: column;
@@ -49,10 +50,10 @@ body{
 }
 
 .footer{
-  width: 1000px;
-  height:100px;
-  background-color: inherit;
-  margin: 0px auto;
+  width: 100%;
+  height: 100px;
+  background-color: #efefef;
+  text-align: center;
 }
 
 .logo_box{
@@ -237,7 +238,7 @@ body{
   background-repeat: no-repeat;
   background-color: #F0F0F0;
   border-radius: 8px;
-  box-shadow: 2px 2px 4px #aaa;
+  box-shadow: 2px 2px 4px #888;
   /*animation: resize_anim 2s infinite;*/
   transform: scale(0.9,0.9);
   position: relative;
@@ -327,5 +328,133 @@ body{
   font-size: 16px;
   position: relative;
   left:10px;
+
+}
+
+
+
+
+.third_slide{
+  width: 100%;
+  height: 800px;
+  background-color: #5028b7;
+  margin: 0px auto;
+
+}
+
+.phone_case{
+  width: 500px;
+  height: 700px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("http://www.streamlineicons.com/ux/img/phone.png");
+  position: relative;
+  left:10px;
+}
+
+.center_case3{
+  width: 1000px;
+  height: auto;
+  margin:0px auto;
+  position: relative;
+  top:50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.more_info_box{
+  width: auto;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #555;
+  position: relative;
+  top:150px;
+  left: 100px;
+}
+
+.f_title{
+  width: 400px;
+  height: auto;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.features_title{
+  font-size: 30px;
+  color:#5028b7;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+  position: relative;
+  left:20px;
+  border-radius: 10px;
+
+}
+
+.f_list{
+  padding: 5px;
+  width: 400px;
+  height: 200px;
+  background-color: inherit;
+}
+
+.feature_l{
+  width: 90%;
+  height: 40px;
+  line-height: 55px;
+  padding: 5px;
+  color:#5028b7;
+  font-family: 'Quicksand', sans-serif;
+  list-style-type: none;
+}
+
+.logo_section{
+  width: 200px;
+  height: 100%;
+  margin: 0px auto;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+.fb_icon{
+  width: 35px;
+  height: 35px;
+  background-color: inherit;
+  position: relative;
+  top:30px;
+  left:20px;
+  background-image: url("../icons/fb.png");
+  background-size: 100%;
+  margin-right: 5px;
+}
+
+.twitter_icon{
+  width: 35px;
+  height: 35px;
+  background-color: inherit;
+  position: relative;
+  top:30px;
+  left:20px;
+  background-image: url("../icons/twit.png");
+  background-size: 100%;
+  margin-right: 5px;
+
+}
+
+.product_hunt_icon{
+  width: 35px;
+  height: 35px;
+  background-color: inherit;
+  position: relative;
+  top:30px;
+  left:20px;
+  background-image: url("../icons/phunt.png");
+  background-size: 100%;
+  margin-right: 5px;
 
 }
