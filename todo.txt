@@ -1,0 +1,12 @@
+<div class="box">
+  <div class="circ_box">
+    <div class="circ">
+
+    </div>
+  </div>
+  <div class="msg_box">
+    <div class="desp">
+      Holy smokes! Bitcoin is up by 1200% since yesterday.
+    </div>
+  </div>
+</div>

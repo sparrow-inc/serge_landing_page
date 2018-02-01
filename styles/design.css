@@ -26,7 +26,7 @@ body{
 
 .main_container{
   margin:0px auto;
-  background: -webkit-linear-gradient(left,#4F8A9D, #C184B6);
+  background: -webkit-linear-gradient(left,#7200AF, #5000CB);
 
 }
 
@@ -36,17 +36,19 @@ body{
   background-color: inherit;
   display:flex;
   flex-direction: column;
+  background-attachment: fixed;
 }
 
 .first_slide{
   width: 1200px;
-  height: 600px;
+  height: 700px;
   background: inherit;
   margin:0px auto;
   display: flex;
   flex-direction: row;
   position: relative;
   top:100px;
+  background-attachment: fixed;
 }
 
 .footer{
@@ -156,7 +158,7 @@ body{
 .title_text{
   width: 500px;
   height: auto;
-  font-weight: bold;
+  font-weight: bolder;
   position: relative;
   left:30px;
   font-family: 'Quicksand', sans-serif;
@@ -201,20 +203,21 @@ body{
   height: 150px;
   padding: 20px;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 5px;
   text-decoration: none;
-  font-family: 'Quattrocento Sans', sans-serif;
-  color:#000;
+  border-radius: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  color:#333;
   position: relative;
   left:170px;
   transition: 0.3s;
-  font-weight: 300;
 }
 
 .sign_up_btn:hover{
   border:none;
   transition: 0.2s;
-  box-shadow: 2px 2px 4px #aaa;
+  box-shadow: 1px 1px 2px #333;
 
 }
 
@@ -257,6 +260,7 @@ body{
   width: 100%;
   height: auto;
   background-color: #fff;
+  background-attachment: fixed;
 }
 
 .white_gap{
@@ -337,8 +341,9 @@ body{
 .third_slide{
   width: 100%;
   height: 800px;
-  background-color: #5028b7;
+  background-color: #19003D;
   margin: 0px auto;
+  background-attachment: fixed;
 
 }
 
@@ -366,11 +371,11 @@ body{
 .more_info_box{
   width: auto;
   height: 400px;
-  background-color: #fff;
+  background-color: #190D59;
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
-  box-shadow: 2px 2px 4px #555;
+  border-radius: 0px;
+  box-shadow: 2px 2px 10px #000;
   position: relative;
   top:150px;
   left: 100px;
@@ -380,12 +385,12 @@ body{
   width: 400px;
   height: auto;
   padding: 5px;
-  background-color: #fff;
+  background-color: #150B52;
 }
 
 .features_title{
   font-size: 30px;
-  color:#5028b7;
+  color:#2F4DF9;
   font-weight: bold;
   position: relative;
   font-family: 'Quicksand', sans-serif;
@@ -407,7 +412,7 @@ body{
   height: 40px;
   line-height: 55px;
   padding: 5px;
-  color:#5028b7;
+  color:#2F4DF9;
   font-family: 'Quicksand', sans-serif;
   list-style-type: none;
 }
@@ -456,5 +461,145 @@ body{
   background-image: url("../icons/phunt.png");
   background-size: 100%;
   margin-right: 5px;
+
+}
+
+
+.track_coins_slide{
+  width: 100%;
+  height: 700px;
+  background:linear-gradient(#340069,#190D59);
+  background-attachment: fixed;
+}
+
+
+.track_cent_con{
+  width: 1000px;
+  height: inherit;
+  margin: 0px auto;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.coin_display{
+  width: 700px;
+  height: 500px;
+  background-color: inherit;
+  display: flex;
+  margin: 0px auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.coin{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #777;
+  box-shadow: 1px 1px 2px #333;
+  margin:15px;
+  margin-top: 50px;
+}
+
+.btc{
+  background-image: url("../icons/coins/btc.png");
+  background-position: center;
+  margin-left:15px;
+}
+
+.eth{
+  background-image: url("../icons/coins/eth.png");
+  background-position: center;
+  margin-left:15px;
+
+}
+
+.dash{
+  background-image: url("../icons/coins/dash.png");
+  background-position: center;
+  margin-left:15px;
+}
+
+.ltc{
+  background-image: url("../icons/coins/ltc.png");
+  background-position: center;
+  margin-left:15px;
+
+}
+
+.xmr{
+  background-image: url("../icons/coins/xmr.png");
+  background-position: center;
+}
+
+.xrp{
+  background-image: url("../icons/coins/xrp.png");
+  background-position: center;
+
+}
+
+.zec{
+  background-image: url("../icons/coins/zec.png");
+  background-position: center;
+}
+
+.burst{
+  background-image: url("../icons/coins/burst.png");
+  background-position: center;
+}
+
+.doge{
+  background-image: url("../icons/coins/doge.png");
+  background-position: center;
+}
+
+
+.layer_coin1{
+  width: 100%;
+  height: 150px;
+  background-color: inherit;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top:0px;
+}
+
+.layer_coin2{
+
+  width: 100%;
+  height: 150px;
+  background-color: inherit;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top:0px;
+
+}
+
+.center_l1{
+  width: auto;
+  height: auto;
+  padding: 30px;
+  margin: 0px auto;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+}
+
+.title_layer{
+  width: 100%;
+  height: 100px;
+  background-color: inherit;
+}
+
+.title_layer p{
+  width: 100%;
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 64px;
 
 }
