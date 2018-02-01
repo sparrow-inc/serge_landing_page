@@ -227,7 +227,7 @@ body{
   position: relative;
   top:50px;
   left:100px;
-  background-image: url("../icons/graph.png");
+  background-image: url("../icons/graph1.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 40% 80%;
@@ -468,7 +468,7 @@ body{
 .track_coins_slide{
   width: 100%;
   height: 700px;
-  background:linear-gradient(#340069,#190D59);
+  background-color:#fff;
   background-attachment: fixed;
 }
 
@@ -497,7 +497,7 @@ body{
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background-color: #777;
+  background-color: #000;
   box-shadow: 1px 1px 2px #333;
   margin:15px;
   margin-top: 50px;
@@ -598,7 +598,7 @@ body{
 
 .title_layer p{
   width: 100%;
-  color: #fff;
+  color: #000;
   font-family: 'Quicksand', sans-serif;
   font-size: 64px;
 
