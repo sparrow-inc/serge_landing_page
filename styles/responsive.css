@@ -1,0 +1,271 @@
+
+/* for phones */
+
+@media only screen and (min-device-width : 260px) and (max-device-width : 420px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .header_nav{
+    width: 100%;
+    height: 30px;
+  }
+
+
+  .main_container{
+    background-color: 100%;
+    width: 100%;
+  }
+
+  .info_stack{
+    width: 280px;
+  }
+
+  .title_text{
+    width: 260px;
+    font-size: 35px;
+  }
+
+  .first_slide{
+    height: 500px;
+    margin: 0px auto;
+    background-color: inherit;
+    position: relative;
+    top:40px;
+    left:0px;
+  }
+
+  .description{
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    top:-20px;
+    left:30px;
+    background-color: inherit;
+  }
+
+  .sign_up_btn{
+    position: relative;
+    top:50px;
+    left:40%;
+    margin: 0px auto;
+}
+
+
+/*slide 2*/
+
+.second_slide{
+  width: 100%;
+  background-color: #fff;
+}
+
+
+.second_slide_cont{
+  position: relative;
+  left:2%;
+}
+
+.white_gap{
+  width: 100%;
+  height: 0px;
+}
+
+.white_gap2{
+  width: 100%;
+  height: 30px;
+}
+
+.case_info{
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.case1_img_box{
+  width: 130px;
+  height: 130px;
+
+}
+
+.img1_cont{
+  width: inherit;
+  height: inherit;
+}
+
+.case1_info_box{
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+  padding: 0px;
+}
+
+.info_title{
+  width: 300px;
+  font-size: 18px;
+  padding: 0px;
+  position: relative;
+  left:20px;
+  text-align: center;
+
+}
+
+.info_desp{
+  text-align: center;
+  width: 300px;
+  padding: 0px 10px 0px 10px;
+}
+
+.center_case{
+  margin: 0px auto;
+  background-color: inherit;
+}
+
+.img1_cont{
+  position: relative;
+  left:60%;
+}
+
+
+.third_slide{
+  position: relative;
+  height: auto;
+  left:0px;
+
+}
+
+.center_case3{
+  width: 100%;
+  height: 200px;
+  top:0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone_case{
+  width: 0px;
+  height:0px;
+}
+
+.more_info_box{
+  width: 100%;
+  height:40px;
+  position: relative;
+  top:0px;
+  left:0px;
+
+}
+
+.f_list{
+  width: 100%;
+  height: 220px;
+}
+
+.features_title{
+  font-size: 20px;
+}
+
+.feature_l{
+  height: 35px;
+}
+
+.track_coins_slide{
+  width: 100%;
+  height: 380px;
+}
+
+.track_cent_con{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.title_layer{
+  width: 100%;
+  height: 150px;
+  background-color: inherit;
+  position: relative;
+  top:100px;
+}
+
+.title_layer p{
+  width: 300px;
+  font-size: 20px;
+  background-color: inherit;
+  text-align: center;
+  position: relative;
+  top:15%;
+  left:5%;
+}
+
+.layer_coin1{
+  background-color: transparent;
+  height: 60px;
+  position: relative;
+  left:-163px;
+  top:-10px;
+}
+
+.layer_coin2{
+  position: relative;
+  left:60px;
+
+}
+
+.coin{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.btc{
+  background-size: 100%;
+}
+
+.eth{
+  background-size: 100%;
+}
+
+.ltc{
+  background-size: 100%;
+}
+
+.dash{
+  background-size: 100%;
+}
+
+.xrp{
+  background-size: 100%;
+}
+
+.xmr{
+  background-size: 100%;
+}
+
+.zec{
+  background-size: 100%;
+}
+
+.burst{
+  background-size: 100%;
+}
+
+.doge{
+  background-size: 100%;
+}
+
+
+.footer{
+  height: 80px;
+}
+
+.logo_section{
+  position: relative;
+  left:5%;
+}
+
+
+
+
+}
